@@ -1,0 +1,98 @@
+
+body {
+    margin: 0;
+    font-family: "Bree serif", serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+min-height: 50px;
+max-height: 100px;
+align-items: center;
+justify-content: center;
+background-color: white; 
+border-bottom: 1px solid black;
+font-size: 15pt;
+}
+
+.header-link {
+padding: 18px;
+color: #ff8400;
+text-decoration: !important;
+font-size: 1em;
+}
+a:hover {
+    color: green;
+}
+a:active {
+    color: #d307f2;
+}
+.main{
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+    background-color: #b8d5e0;
+    padding-top: 100px;
+
+}
+.main__left{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 75% ;
+    margin-top: -50px;
+
+}
+.main__right{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 35% ;
+    height: 50%;
+    margin-top: -50px;
+}
+.name {
+    font-size: 2em;
+
+}
+.about, .education, .workxp, .hobby {
+   text-decoration: underline;
+   border-left: 4px solid #ff8400;
+   padding-left: 10px;
+   margin-bottom: -10px;
+
+}
+.footer {
+    display: flex;
+    height: 4vh;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid black;
+    font-size: 15pt;
+}
+.img-mail {
+padding-left:10px ;
+padding-right:10px ;
+}
+.contact__link {
+   text-decoration: underline;
+}
+.contact__link:visited{
+    color: #ff8400;;
+}
